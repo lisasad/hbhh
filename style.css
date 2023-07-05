@@ -1,0 +1,47 @@
+@font-face {
+    font-family:UnlimitedPie;
+    src:url(font.ru_UnlimitedPie.ttf);
+    }
+    /*header*/
+    header{
+        width: 100%;
+        color: rgb(250, 250, 250);
+        padding: 48px;
+        background: darkgreen;
+        box-sizing: border-box;
+        font-family:UnlimitedPie;
+
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .menu-item{
+        list-style: none;
+    }
+    .menu-link{
+        color: azure;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .menu-link{
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .container{
+        max-width: 1140px;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+    .menu{
+        margin-left: 170px;
+    }
+    .banner-tittle,.banner-description{
+        color: aliceblue;
+        background: chartreuse;
+        margin-left: 0%;
+        
+    
+    }
