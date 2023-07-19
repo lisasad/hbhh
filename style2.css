@@ -1,0 +1,14 @@
+.block{
+    background: rgb(251, 251, 252);
+    height: 300px;
+    width: 300px;
+    transition-property: background, height;
+    transition-duration: 2s;
+    transition-timing-function: liner;
+    transition-delay: 0.5s;
+    animation-iteration-count:3;
+    }
+   .block:hover{
+    background: green;
+    height: 100hv;
+   }
