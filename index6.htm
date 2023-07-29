@@ -1,15 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style2.css">
-    <title>Document</title>
+    <title>seasons</title>
 </head>
 
 <body>
-     <button><div class="block"><p class="block-text">Нажми</p></div></button>
-   
+     <script>
+         <h1>seasons</h1>
+         var seasons = prompt('Введите цифру времени года:' +
+                              '\n1 - Зима;' +
+                              '\n2 - Весна;' +
+                              '\n3 - Лето;' + 
+                              '\n4 - Осень;');
+        switch (parseint(seasons)) {
+            case 1:
+                alert('Зима' + 'Антарктида');
+                break;
+            case 2: 
+                alert('Весна' + 'Испания');
+                break;
+            case 3:
+                alert('Лето' + 'Мальдивы');
+                break;
+            case 4:
+                alert('Осень' + 'Ирландия');
+
+            default:
+                alert('Вне разумных пределов!');
+        }
+ </script>
     
 </body>
 </html>
