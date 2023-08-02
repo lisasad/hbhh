@@ -1,0 +1,28 @@
+Functions ShowMessage(message) 
+name = prompt("Введите оклад: ");
+alert (canculate) ;
+        
+            if (оклад < 100000) {
+                TaxRate = 0.35;
+            } else {
+                TaxRate = 0.45;
+            } 
+        function calculate {
+
+            double taxes = salary * taxRate;
+            double noSalary = salary - taxes;
+
+         function ShowMessage ("Чистая зарплата: " + noSalary);
+
+             name prompt =("Хотите расчитать новую зарплату? (да/нет): ");
+             return ("Введите оклад");
+           {
+              if ("нет")) {
+              alert(message);
+                
+            }
+        }
+
+        
+    }
+}
