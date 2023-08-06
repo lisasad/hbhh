@@ -4,34 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style2.css">
-    <title>seasons</title>
+    <title>Кнопка</title>
+    
 </head>
 
 <body>
-     <script>
-         <h1>seasons</h1>
-         var seasons = prompt('Введите цифру времени года:' +
-                              '\n1 - Зима;' +
-                              '\n2 - Весна;' +
-                              '\n3 - Лето;' + 
-                              '\n4 - Осень;');
-        switch (parseint(seasons)) {
-            case 1:
-                alert('Зима' ++ 'Антарктида');
-                break;
-            case 2: 
-                alert('Весна' ++ 'Испания');
-                break;
-            case 3:
-                alert('Лето' ++ 'Мальдивы');
-                break;
-            case 4:
-                alert('Осень' ++ 'Ирландия');
+     <input value="Работает?" onclick="alert('Работает. Не трогай!')" type="button">
+    <!--onclick - событие
+    alert - функции, которая обрабатывает событие 
+    записи обработчика похожа на обычный атрибут стили -->
+    <input value="Хм..." id="elem" type="button">
+     <!--onclick - событие
+    alert - функции, которая обрабатывает событие 
+    записи обработчика похожа на обычный атрибут стили -->
+   <script>
+ elem.onclick = function() {
+    alert('Цитата номер 1');
+    alert('Цитата номер 2');
+    alert('Цитата номер 3');
+  };
+</script>
 
-            default:
-                alert('Вне разумных пределов!');
-        }
- </script>
-    
 </body>
 </html>
